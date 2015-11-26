@@ -19,7 +19,7 @@ MongoClient.connect(url, function (err, db) {
     var collection = db.collection('users');
 
     // Insert some users
-    collection.find({name: 'modulus user'}).toArray(function (err, result) {
+    /*collection.find({name: 'modulus user'}).toArray(function (err, result) {
       if (err) {
         console.log(err);
       } else if (result.length) {
@@ -29,6 +29,21 @@ MongoClient.connect(url, function (err, db) {
       }
       //Close connection
       db.close();
-    });
+    });*/
+    
+
+    function buscarUsuario(usuario, password){
+      collection.find({name: 'modulus user'}).toArray(function (err, result) {
+        if (err) {
+          console.log(err);
+        } else if (result.length) {
+          console.log('Found:', result);
+        } else {
+          console.log('No document(s) found with defined "find" criteria!');
+        }
+        //Close connection
+        db.close();
+      });
+    }    
   }
 });

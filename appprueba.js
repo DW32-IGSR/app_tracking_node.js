@@ -29,7 +29,7 @@ db.connect('mongodb://localhost:27017/unTestDB', function(err) {
     console.log('Unable to connect to Mongo.');
     process.exit(1);
   } else {
-    app.listen(3000, function() {
+    var server=app.listen(3000, function() {
       console.log('Listening in port %d', server.address().port);
     })
   }

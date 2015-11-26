@@ -9,8 +9,8 @@ router.get('/all', function(req, res) {
 })
 
 router.get('/usuario', function(req, res) {
-  usuarios.recent(function(err, docs) {
-    res.render('usuarios', {name: docs})
+  usuarios.usuario(function(err, docs) {
+    res.render('login', {name: docs})
   })
 })
 

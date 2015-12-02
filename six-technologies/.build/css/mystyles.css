@@ -1,0 +1,119 @@
+/* line 16, css/mystyles */
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+/* line 19, css/mystyles */
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+/* line 24, css/mystyles */
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #AfAfAf;
+}
+/* line 28, css/mystyles */
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #7986CB;
+  color: floralwhite;
+}
+/* line 34, css/mystyles */
+.carousel {
+  background: #1a237e;
+}
+/* line 36, css/mystyles */
+.carousel .item {
+  height: 300px;
+}
+/* line 38, css/mystyles */
+.carousel .item img {
+  left: 0;
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+}
+/* line 47, css/mystyles */
+.navbar-inverse {
+  background: #303f9f;
+  color: #ffffff;
+}
+/* line 50, css/mystyles */
+.navbar-inverse .navbar-nav > .active > a {
+  background: #1a237e;
+  color: #ffffff;
+}
+/* line 53, css/mystyles */
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #1a237e;
+  color: #ffffff;
+}
+/* line 57, css/mystyles */
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #1a237e;
+  color: #ffffff;
+}
+/* line 62, css/mystyles */
+.navbar-inverse .navbar-nav > .open > a {
+  background: #1a237e;
+  color: #ffffff;
+}
+/* line 65, css/mystyles */
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #1a237e;
+  color: #ffffff;
+}
+/* line 69, css/mystyles */
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #1a237e;
+  color: #ffffff;
+}
+/* line 76, css/mystyles */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  background-color: #303f9f;
+  color: #eeeeee;
+}
+/* line 79, css/mystyles */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #000000;
+}
+/* line 83, css/mystyles */
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+  background-color: #303f9f;
+  color: #eeeeee;
+}
+/* line 91, css/mystyles */
+address {
+  color: #0f0f0f;
+  font-size: 80%;
+  margin: 0px;
+}
+/* line 96, css/mystyles */
+body {
+  align: center;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  background: lightblue;
+}
+/* line 102, css/mystyles */
+.tab-content {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 10px;
+}
+/* line 108, css/mystyles */
+.affix {
+  top: 100px;
+}
+/* line 111, css/mystyles */
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}

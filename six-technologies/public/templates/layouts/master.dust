@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>{+title /}</title>
+    
+        <link rel="stylesheet" href="/css/app.css">
+        <link href='components/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='components/bootstrap/dist/css/bootstrap-theme.min.css' rel='stylesheet'>
+        <link href='css/app.css' rel='stylesheet'>
+        <link href='css/mystyles.css' rel='stylesheet'>
+    
+    </head>
+    <body>
+
+        <div id="wrapper">
+            {+body /}
+        </div>
+
+    
+        <script data-main="/js/app" src="/components/requirejs/require.js"></script>
+        <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+        <script type="text/javascript" src='components/bootstrap/dist/js/bootstrap.min.js'></script>
+        <script type="text/javascript" src='js/reloj.js'></script>
+        <!--<script type="text/javascript" src="js/script.js"></script>-->
+    
+    </body>
+</html>

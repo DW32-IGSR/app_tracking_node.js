@@ -46,10 +46,6 @@ app.post('/login', function(req, res) {
     res.render('prueba', valores);*/
 });
 
-
-
-
-
 var server = app.listen(process.env.PORT || 3000, function(){
     console.log('Listening in port %d', server.address().port);
 });

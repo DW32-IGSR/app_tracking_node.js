@@ -22,6 +22,11 @@ app.get('/', function (req, res) {
 	res.render('login', {layout:'main'});
 });
 
+app.post('/login', function(req, res) {
+  console.log('User ' + req.body.usuario + ' Pass ' + req.body.pass);
+  res.send('User ' + req.body.usuario + ' Pass ' + req.body.pass);
+});
+
 
 // Connect to Mongo on start
 db.connect('mongodb://localhost:27017/unTestDB', function(err) {
@@ -29,7 +34,7 @@ db.connect('mongodb://localhost:27017/unTestDB', function(err) {
     console.log('Unable to connect to Mongo.');
     process.exit(1);
   } else {
-    var server=app.listen(3000, function() {
+    var server=app.listen(process.env.PORT || 3000, function() {
       console.log('Listening in port %d', server.address().port);
     })
   }
